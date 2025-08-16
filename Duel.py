@@ -1,11 +1,11 @@
 import time
-print("Salut à toi jeune guerrier , tu viens d'entrer dans le repére du grand Pythonnium.")
+print("Salut à toi jeune guerrier , tu viens d'entrer dans le repaire du grand Pythonnium.")
 time.sleep(1)
-decision_joueur = input("Est tu pret a l'affronter durant un jeu de pierre feuille ciseaux ? Oui ou Non jeune guerrier ?: ").lower()
+decision_joueur = input("Es-tu pret a l'affronter durant un jeu de pierre-feuille-ciseaux ? Oui ou Non jeune guerrier ?: ").lower()
 if decision_joueur == "oui" :
-  print("Trés bien prépare toi")
+  print("Très bien prépare toi")
 elif decision_joueur == "non" :
-  print("Mauviette je savais que tu n'en etais pas capable !")
+  print("Mauviette ! je savais que tu n'en etais pas capable !")
   quit()
 else :
   print("Je t'ai demandé oui ou non pas de me raconter ta vie")
@@ -30,6 +30,7 @@ time.sleep(1)
 print(f"tu avais donc choisis {joueur} et le grand Pythonnium {ordinateur}, tu as donc ...")
 time.sleep(3)
 nom = input("PERDU !!!! mais tu as le merite d'avoir essayé, quel est ton nom que je m'en souvienne ? ")
-print(f"{nom} c'est ça ? tu resteras dans les mémoires !")
+print(f"{nom} c'est bien ça ? tu resteras dans les mémoires !")
 quit()
+
 
