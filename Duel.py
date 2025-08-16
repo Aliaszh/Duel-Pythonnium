@@ -16,21 +16,20 @@ print("Le grand Pythonnium réfléchit...")
 time.sleep(2)
 if joueur == "pierre" or joueur == "la pierre":
   ordinateur = "feuille"
-  print(f"Le grand Pythonnium a joué , son choix est : {ordinateur}")
 elif joueur == "feuille" or joueur == "la feuille" :
   ordinateur = "ciseaux"
-  print(f"Le grand Pythonnium a joué , son choix est : {ordinateur}")
 elif joueur ==  "ciseaux" or joueur == "les ciseaux" :
   ordinateur = "pierre"
-  print(f"Le grand Pythonnium a joué , son choix est : {ordinateur}")
 else:
   print("TU NE SAIS PAS JOUER, LE GRAND PYTHONNIUM TA ÉCRASÉ ET DÉGUSTÉ AU FORMAT BINAIRE !")
   quit()
+print(f"Le grand Pythonnium a joué , son choix est : {ordinateur}")
 time.sleep(1)
 print(f"tu avais donc choisis {joueur} et le grand Pythonnium {ordinateur}, tu as donc ...")
 time.sleep(3)
 nom = input("PERDU !!!! mais tu as le merite d'avoir essayé, quel est ton nom que je m'en souvienne ? ")
 print(f"{nom} c'est bien ça ? tu resteras dans les mémoires !")
 quit()
+
 
 
